@@ -12,7 +12,7 @@ I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021),
 
 - **Compositional Multi-object Reinforcement Learning with Linear Relation Networks**
   <br>
-  **Davide Mambelli**^*^, Frederik Träuble^*^, Stefan Bauer, Bernhard Schölkopf, Francesco Locatello
+  **Davide Mambelli**<sup>*</sup>, Frederik Träuble<sup>*</sup>, Stefan Bauer, Bernhard Schölkopf, Francesco Locatello
   <br>
   Workshop on the Elements of Reasoning: Objects, Structure and Causality @ **ICLR 2022**.
   <br>
