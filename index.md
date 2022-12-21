@@ -14,6 +14,6 @@ I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021),
   <br>
   **Davide Mambelli**<sup>*</sup>, Frederik Träuble<sup>*</sup>, Stefan Bauer, Bernhard Schölkopf, Francesco Locatello
   <br>
-  * *Workshop on the Elements of Reasoning: Objects, Structure and Causality* * @ **ICLR 2022**.
+  *Workshop on the Elements of Reasoning: Objects, Structure and Causality* @ **ICLR 2022**.
   <br>
   [[PDF](https://openreview.net/pdf?id=HFUxPr_I5ec)]
