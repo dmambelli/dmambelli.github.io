@@ -25,7 +25,7 @@ I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021),
 
 ## Talks
 - Science And Analytics Conference 2023 @ Booking.com (selected presentations 24/110)
-- ELLIS Symposium 2023
+- ELLIS Doctoral Symposium 2023
 
 ## Organizations
 - Mentee @ Lead The Future
