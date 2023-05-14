@@ -22,3 +22,10 @@ I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021),
 - CS3000 Bachelor Research Project (21-22, 22-23) 
 - CS4375 (prev. IN4010) Artificial Intelligence Techniques (21-22, 22-23)
 - CS4210-B Intelligent Decision Making Project (22-23)
+
+## Talks
+- Science And Analytics Conference 2023 @ Booking.com (selected presentations 24/110)
+- ELLIS Symposium 2023
+
+## Organizations
+- Mentee @ Lead The Future
