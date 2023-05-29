@@ -8,6 +8,8 @@ I am a second-year Ph.D. Student at the Interactive Intelligence Group at Delft 
 
 I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021), and previously I graduated with a double degree in Automation Engineering from the University of Bologna (2018) and Tongji University (2019). During my Masters degree, I have also spent time at the Empirical Inference Department of Max Planck Institute for Intelligent Systems (Tübingen) and Amazon (Berlin).
 
+My research interstests are causality and sequential decision making. My current area of research is counterfactual learning, where I am focusing on off-policy reinforcement learning.
+
 ## Publications
 
 - **Compositional Multi-object Reinforcement Learning with Linear Relation Networks**
@@ -24,8 +26,9 @@ I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021),
 - CS4210-B Intelligent Decision Making Project (22-23)
 
 ## Talks
-- Science And Analytics Conference 2023 @ Booking.com (selected presentations 24/110)
-- ELLIS Doctoral Symposium 2023
+- Science And Analytics Conference 2023 @ Booking.com (Oral Presentation, selected 24/110)
+- ELLIS Meetup Delft (October 2022, Poster)
+- ELLIS Doctoral Symposium 2022 (Poster)
 
 ## Organizations
-- Mentee @ Lead The Future
+- Mentee @ Lead The Future (Sept. 2020 - Present)
