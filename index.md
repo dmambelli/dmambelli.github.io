@@ -31,4 +31,4 @@ My research interstests are causality and sequential decision making. My current
 - ELLIS Doctoral Symposium 2022 (Poster)
 
 ## Organizations
-- Mentee @ Lead The Future (Sept. 2020 - Present)
+- Mentee @ [Lead The Future](https://www.leadthefuture.tech) (Sept. 2020 - Present)
