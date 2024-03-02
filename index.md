@@ -17,7 +17,7 @@ My research interests are causality and sequential decision-making. My current a
   <br>
   Preprint, 2024
   <br>
-  [[PDF]([https://openreview.net/pdf?id=HFUxPr_I5ec](https://arxiv.org/pdf/2402.12034.pdf))]
+  [[PDF](https://arxiv.org/pdf/2402.12034.pdf)]
 - **Compositional Multi-object Reinforcement Learning with Linear Relation Networks**
   <br>
   **Davide Mambelli**<sup>*</sup>, Frederik Träuble<sup>*</sup>, Stefan Bauer, Bernhard Schölkopf, Francesco Locatello
