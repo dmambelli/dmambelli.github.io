@@ -11,7 +11,13 @@ I have obtained my MSc in Robotics, Systems, and Control from ETH Zurich (2021) 
 My research interests are causality and sequential decision-making. My current area of research is counterfactual learning, where I am focusing on off-policy reinforcement learning.
 
 ## Publications
-
+- **When Do Off-Policy and On-Policy Policy Gradient Methods Align?**
+  <br>
+  **Davide Mambelli**<sup>*</sup>, Stephan Bongers, Onno Zoeter, Matthijs T.J. Spaan, Frans A. Oliehoek
+  <br>
+  Preprint, 2024
+  <br>
+  [[PDF]([https://openreview.net/pdf?id=HFUxPr_I5ec](https://arxiv.org/pdf/2402.12034.pdf))]
 - **Compositional Multi-object Reinforcement Learning with Linear Relation Networks**
   <br>
   **Davide Mambelli**<sup>*</sup>, Frederik Träuble<sup>*</sup>, Stefan Bauer, Bernhard Schölkopf, Francesco Locatello
