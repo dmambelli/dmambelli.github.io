@@ -13,7 +13,7 @@ My research interests are causality and sequential decision-making. My current a
 ## Publications
 - **When Do Off-Policy and On-Policy Policy Gradient Methods Align?**
   <br>
-  **Davide Mambelli**<sup>*</sup>, Stephan Bongers, Onno Zoeter, Matthijs T.J. Spaan, Frans A. Oliehoek
+  **Davide Mambelli**, Stephan Bongers, Onno Zoeter, Matthijs T.J. Spaan, Frans A. Oliehoek
   <br>
   Preprint, 2024
   <br>
