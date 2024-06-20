@@ -4,11 +4,11 @@ layout: homepage
 
 ## About me
 
-I am a second-year Ph.D. Student at the Sequential Decision Making Group at **Delft University of Technology** under the joint supervision of [Prof. Frans Oliehoek](https://scholar.google.com/citations?hl=it&user=rSNBJJIAAAAJ) and [Prof. Matthijs Spaan](https://scholar.google.com/citations?hl=it&user=twSIZSEAAAAJ). I am also a member of the [Mercury Machine Learning Lab](https://icai.ai/mercury-machine-learning-lab/), through which I am affiliated with **Booking.com** where I am a Machine Learning Scientist II, and I work under the supervision of Dr. Onno Zoeter.
+I am a third-year Ph.D. Student at the Sequential Decision Making Group at **Delft University of Technology** under the joint supervision of [Prof. Frans Oliehoek](https://scholar.google.com/citations?hl=it&user=rSNBJJIAAAAJ) and [Prof. Matthijs Spaan](https://scholar.google.com/citations?hl=it&user=twSIZSEAAAAJ). I am also a member of the [Mercury Machine Learning Lab](https://icai.ai/mercury-machine-learning-lab/), through which I am affiliated with **Booking.com** where I am a Machine Learning Scientist II, and I work under the supervision of Dr. Onno Zoeter.
 
 I have obtained my MSc in Robotics, Systems, and Control from **ETH Zurich** (2021) with [Prof. Emilio Frazzoli](https://scholar.google.com/citations?user=8JGG3KcAAAAJ&hl=it&oi=ao) as tutor, and previously I graduated with a double degree in Automation Engineering from the **University of Bologna** (2018) and **Tongji University** (2019). During my Master's degree, I have also spent time at the Empirical Inference Department of **Max Planck Institute for Intelligent Systems** (Tübingen) where I worked with [Frederik Träuble](https://scholar.google.com/citations?user=oc2OOyMAAAAJ&hl=it&oi=ao) under the supervision of [Prof. Bernhard Schölkopf](https://scholar.google.com/citations?user=DZ-fHPgAAAAJ&hl=it), [Prof. Stefan Bauer](https://scholar.google.com/citations?user=O-oICE8AAAAJ&hl=it) and [Dr. Francesco Locatello](https://scholar.google.com/citations?user=wQanfTIAAAAJ&hl=it), and at **Amazon** (Berlin) where I worked with [Dr. Sebastian Höfer](https://scholar.google.com/citations?hl=it&user=srCW5e4AAAAJ).
 
-My research interests are causality and sequential decision-making. My current area of research is counterfactual learning, where I am focusing on off-policy reinforcement learning.
+My research interests are causality and sequential decision-making. My current area of research is counterfactual learning, where I am focusing on the theory of off-policy reinforcement learning.
 
 ## Publications
 - **When Do Off-Policy and On-Policy Policy Gradient Methods Align?**
@@ -32,6 +32,9 @@ My research interests are causality and sequential decision-making. My current a
 - CS4210-B Intelligent Decision Making Project (22-23)
 
 ## Talks
+- AI PhD Poster Day (June 2024, Poster)
+- BeNeRL Workshop 2024 (June 2024, Poster)
+- LDE Causality Meeting (April 2024)
 - ELLIS Doctoral Symposium 2023 (Poster)
 - Science And Analytics Conference 2023 @ Booking.com (Oral Presentation, selected 24/110)
 - ELLIS Meetup Delft (October 2022, Poster)
