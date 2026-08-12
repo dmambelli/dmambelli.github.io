@@ -2,4 +2,6 @@
 layout: homepage
 ---
 
-Researcher interested in computer vision, multi-agent systems, and evaluation of RL algorithms with applications to robotics.
+Currently, I teach small agents to disagree locally, synchronize globally, and occasionally act intelligent. 
+
+Before that: computer vision, reinforcement learning, and robotics.
