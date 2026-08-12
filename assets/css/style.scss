@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -51,6 +53,7 @@ h1 {
 }
 
 .bio {
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
   font-size: clamp(13px, 1.15vw, 17px);
   font-weight: 500;
   letter-spacing: -0.025em;
