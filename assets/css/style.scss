@@ -105,32 +105,18 @@ h1 {
   justify-content: center;
   padding: 0;
   position: absolute;
-  right: 16px;
-  top: 16px;
-  width: 30px;
+  right: 10px;
+  top: 10px;
+  width: 52px;
   z-index: 2;
 }
 
 .reset-button span {
-  border: 1px solid var(--black);
-  border-left-color: transparent;
-  border-radius: 50%;
-  display: block;
-  height: 13px;
-  position: relative;
-  transform: rotate(-35deg);
-  width: 13px;
-}
-
-.reset-button span::after {
-  border-bottom: 3px solid transparent;
-  border-left: 4px solid var(--black);
-  border-top: 3px solid transparent;
-  content: "";
-  position: absolute;
-  right: -3px;
-  top: -2px;
-  transform: rotate(35deg);
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
 }
 
 .reset-button:hover,
@@ -140,13 +126,7 @@ h1 {
 
 .reset-button:hover span,
 .reset-button:focus-visible span {
-  border-color: var(--white);
-  border-left-color: transparent;
-}
-
-.reset-button:hover span::after,
-.reset-button:focus-visible span::after {
-  border-left-color: var(--white);
+  color: var(--white);
 }
 
 #firefly-matrix {
