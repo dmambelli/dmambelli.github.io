@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Technological leadership can change faster than market shares</title>
+  <desc id="desc">Four firms become technological leader in sequence. The stacked market-share bars below adjust slowly, leaving the first firm commercially dominant after several technical changes.</desc>
+  <defs>
+    <marker id="time-arrow" markerHeight="7" markerWidth="7" orient="auto" refX="6" refY="3.5">
+      <path d="M0 0L7 3.5L0 7Z" fill="#000"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000; }
+      .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
+      .label { font-size: 12px; font-weight: 700; }
+      .tiny { font-size: 10px; font-weight: 700; }
+      .white { fill: #fff; }
+      .guide { stroke: #c7c7c7; stroke-dasharray: 4 5; }
+    </style>
+  </defs>
+
+  <rect width="960" height="430" fill="#fff"/>
+  <text class="eyebrow" x="48" y="47">TECHNOLOGICAL LEADER</text>
+
+  <g aria-label="Technological leadership changes from A to B to C to D">
+    <rect x="204" y="70" width="164" height="52" fill="#000"/>
+    <rect x="368" y="70" width="164" height="52" fill="#666"/>
+    <rect x="532" y="70" width="164" height="52" fill="#aaa"/>
+    <rect x="696" y="70" width="164" height="52" fill="#e2e2e2" stroke="#000"/>
+    <text class="white" x="286" y="102" font-size="18" font-weight="700" text-anchor="middle">A</text>
+    <text class="white" x="450" y="102" font-size="18" font-weight="700" text-anchor="middle">B</text>
+    <text x="614" y="102" fill="#000" font-size="18" font-weight="700" text-anchor="middle">C</text>
+    <text x="778" y="102" fill="#000" font-size="18" font-weight="700" text-anchor="middle">D</text>
+  </g>
+
+  <line class="guide" x1="286" x2="286" y1="122" y2="337"/>
+  <line class="guide" x1="450" x2="450" y1="122" y2="337"/>
+  <line class="guide" x1="614" x2="614" y1="122" y2="337"/>
+  <line class="guide" x1="778" x2="778" y1="122" y2="337"/>
+
+  <text class="eyebrow" x="48" y="178">ACTUAL MARKET SHARES</text>
+  <text x="48" y="200" font-size="12">adoption adjusts slowly</text>
+
+  <g aria-label="Stacked market shares at four points in time">
+    <rect x="246" y="218" width="80" height="120" fill="#000" stroke="#000"/>
+    <text class="white" x="286" y="283" font-size="14" font-weight="700" text-anchor="middle">A 100</text>
+
+    <rect x="410" y="248" width="80" height="90" fill="#000" stroke="#000"/>
+    <rect x="410" y="218" width="80" height="30" fill="#666" stroke="#000"/>
+    <text class="tiny white" x="450" y="237" text-anchor="middle">B 25</text>
+    <text class="tiny white" x="450" y="297" text-anchor="middle">A 75</text>
+
+    <rect x="574" y="278" width="80" height="60" fill="#000" stroke="#000"/>
+    <rect x="574" y="240" width="80" height="38" fill="#666" stroke="#000"/>
+    <rect x="574" y="218" width="80" height="22" fill="#aaa" stroke="#000"/>
+    <text class="tiny" x="614" y="233" text-anchor="middle">C 18</text>
+    <text class="tiny white" x="614" y="263" text-anchor="middle">B 32</text>
+    <text class="tiny white" x="614" y="311" text-anchor="middle">A 50</text>
+
+    <rect x="738" y="300" width="80" height="38" fill="#000" stroke="#000"/>
+    <rect x="738" y="266" width="80" height="34" fill="#666" stroke="#000"/>
+    <rect x="738" y="237" width="80" height="29" fill="#aaa" stroke="#000"/>
+    <rect x="738" y="218" width="80" height="19" fill="#e2e2e2" stroke="#000"/>
+    <text class="tiny" x="778" y="232" text-anchor="middle">D 16</text>
+    <text class="tiny" x="778" y="256" text-anchor="middle">C 24</text>
+    <text class="tiny white" x="778" y="287" text-anchor="middle">B 28</text>
+    <text class="tiny white" x="778" y="324" text-anchor="middle">A 32</text>
+  </g>
+
+  <line x1="204" x2="872" y1="378" y2="378" stroke="#000" stroke-width="1.5" marker-end="url(#time-arrow)"/>
+  <text class="label" x="204" y="401">TIME</text>
+  <text x="48" y="364" font-size="12" font-weight="700">the frontier moves before the market finishes moving</text>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Private reconstruction compared with a shared technical commons</title>
+  <desc id="desc">On the left, four followers repeat the same three catch-up steps. On the right, the steps are completed once and four followers branch into separate experiments.</desc>
+  <defs>
+    <marker id="arrow" markerHeight="7" markerWidth="7" orient="auto" refX="6" refY="3.5">
+      <path d="M0 0L7 3.5L0 7Z" fill="#000"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000; }
+      .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 1.2px; }
+      .label { font-size: 13px; font-weight: 700; }
+      .small { font-size: 11px; font-weight: 600; }
+      .white { fill: #fff; }
+      .line { fill: none; stroke: #000; stroke-width: 2; }
+      .soft { fill: none; stroke: #8a8a8a; stroke-width: 1.5; }
+      .dash { stroke-dasharray: 5 5; }
+    </style>
+  </defs>
+
+  <rect width="960" height="430" fill="#fff"/>
+  <line x1="480" x2="480" y1="34" y2="396" stroke="#d7d7d7" stroke-width="1.5"/>
+
+  <text class="eyebrow" x="48" y="48">PRIVATE FOLLOWING</text>
+  <text class="eyebrow" x="520" y="48">SHARED TECHNICAL COMMONS</text>
+
+  <rect x="48" y="70" width="384" height="45" fill="#000"/>
+  <text class="white" x="240" y="98" font-size="13" font-weight="700" text-anchor="middle">MOVING CLOSED FRONTIER</text>
+
+  <g aria-label="Four followers repeat the same catch-up work">
+    <g transform="translate(0 0)">
+      <circle cx="72" cy="161" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+      <text class="small" x="72" y="165" text-anchor="middle">F1</text>
+      <line class="soft" x1="88" x2="126" y1="161" y2="161"/>
+      <rect x="126" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="179" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="232" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <text class="small" x="147" y="165" text-anchor="middle">1</text>
+      <text class="small" x="200" y="165" text-anchor="middle">2</text>
+      <text class="small" x="253" y="165" text-anchor="middle">3</text>
+      <line class="line dash" x1="274" x2="390" y1="161" y2="161" marker-end="url(#arrow)"/>
+    </g>
+    <g transform="translate(0 61)">
+      <circle cx="72" cy="161" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+      <text class="small" x="72" y="165" text-anchor="middle">F2</text>
+      <line class="soft" x1="88" x2="126" y1="161" y2="161"/>
+      <rect x="126" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="179" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="232" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <text class="small" x="147" y="165" text-anchor="middle">1</text>
+      <text class="small" x="200" y="165" text-anchor="middle">2</text>
+      <text class="small" x="253" y="165" text-anchor="middle">3</text>
+      <line class="line dash" x1="274" x2="390" y1="161" y2="161" marker-end="url(#arrow)"/>
+    </g>
+    <g transform="translate(0 122)">
+      <circle cx="72" cy="161" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+      <text class="small" x="72" y="165" text-anchor="middle">F3</text>
+      <line class="soft" x1="88" x2="126" y1="161" y2="161"/>
+      <rect x="126" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="179" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="232" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <text class="small" x="147" y="165" text-anchor="middle">1</text>
+      <text class="small" x="200" y="165" text-anchor="middle">2</text>
+      <text class="small" x="253" y="165" text-anchor="middle">3</text>
+      <line class="line dash" x1="274" x2="390" y1="161" y2="161" marker-end="url(#arrow)"/>
+    </g>
+    <g transform="translate(0 183)">
+      <circle cx="72" cy="161" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+      <text class="small" x="72" y="165" text-anchor="middle">F4</text>
+      <line class="soft" x1="88" x2="126" y1="161" y2="161"/>
+      <rect x="126" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="179" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <rect x="232" y="146" width="42" height="30" fill="#e6e6e6" stroke="#000"/>
+      <text class="small" x="147" y="165" text-anchor="middle">1</text>
+      <text class="small" x="200" y="165" text-anchor="middle">2</text>
+      <text class="small" x="253" y="165" text-anchor="middle">3</text>
+      <line class="line dash" x1="274" x2="390" y1="161" y2="161" marker-end="url(#arrow)"/>
+    </g>
+  </g>
+
+  <text class="label" x="200" y="397" text-anchor="middle">the same catch-up work, four times</text>
+
+  <rect x="520" y="70" width="392" height="45" fill="#000"/>
+  <text class="white" x="716" y="98" font-size="13" font-weight="700" text-anchor="middle">MOVING CLOSED FRONTIER</text>
+
+  <g aria-label="Followers contribute to one shared catch-up path">
+    <circle cx="548" cy="164" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="548" cy="219" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="548" cy="274" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="548" cy="329" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text class="small" x="548" y="168" text-anchor="middle">F1</text>
+    <text class="small" x="548" y="223" text-anchor="middle">F2</text>
+    <text class="small" x="548" y="278" text-anchor="middle">F3</text>
+    <text class="small" x="548" y="333" text-anchor="middle">F4</text>
+
+    <line class="soft" x1="563" x2="610" y1="164" y2="225"/>
+    <line class="soft" x1="563" x2="610" y1="219" y2="235"/>
+    <line class="soft" x1="563" x2="610" y1="274" y2="245"/>
+    <line class="soft" x1="563" x2="610" y1="329" y2="255"/>
+
+    <rect x="610" y="210" width="128" height="60" fill="#e6e6e6" stroke="#000" stroke-width="2"/>
+    <text class="small" x="674" y="235" text-anchor="middle">CATCH UP</text>
+    <text class="small" x="674" y="252" text-anchor="middle">ONCE</text>
+
+    <line class="line" x1="738" x2="828" y1="226" y2="164" marker-end="url(#arrow)"/>
+    <line class="line" x1="738" x2="828" y1="236" y2="219" marker-end="url(#arrow)"/>
+    <line class="line" x1="738" x2="828" y1="246" y2="274" marker-end="url(#arrow)"/>
+    <line class="line" x1="738" x2="828" y1="256" y2="329" marker-end="url(#arrow)"/>
+
+    <rect x="832" y="150" width="52" height="28" fill="#000"/>
+    <rect x="832" y="205" width="52" height="28" fill="#000"/>
+    <rect x="832" y="260" width="52" height="28" fill="#000"/>
+    <rect x="832" y="315" width="52" height="28" fill="#000"/>
+    <text class="white" x="858" y="168" font-size="10" font-weight="700" text-anchor="middle">EXP 1</text>
+    <text class="white" x="858" y="223" font-size="10" font-weight="700" text-anchor="middle">EXP 2</text>
+    <text class="white" x="858" y="278" font-size="10" font-weight="700" text-anchor="middle">EXP 3</text>
+    <text class="white" x="858" y="333" font-size="10" font-weight="700" text-anchor="middle">EXP 4</text>
+  </g>
+
+  <text class="label" x="716" y="397" text-anchor="middle">catch-up once, then explore in parallel</text>
+</svg>

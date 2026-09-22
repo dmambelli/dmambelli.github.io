@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: page.subtitle }}">
+    <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body class="article-page">
+    <main class="article-shell">
+      <nav class="article-nav" aria-label="Site navigation">
+        <a href="{{ '/' | relative_url }}">Davide Mambelli</a>
+        {% if page.status %}<span>{{ page.status }}</span>{% endif %}
+      </nav>
+
+      <article class="article-content">
+        <header class="article-header">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+        </header>
+
+        {{ content }}
+      </article>
+
+      <footer class="article-footer">
+        <a href="{{ '/' | relative_url }}">Back to the homepage</a>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -11,16 +11,28 @@
   <body>
     <main class="page">
       <header class="intro">
-        <h1>{{ site.title }}</h1>
+        <h1>{{ site.title | downcase }}</h1>
         <div class="bio">{{ content }}</div>
       </header>
-      <section class="field" aria-label="Interactive firefly matrix">
-        <canvas id="firefly-matrix" role="img" aria-label="Interactive matrix of fireflies. Click a cell to disturb its state."></canvas>
-        <button class="reset-button" type="button" data-reset aria-label="Reset simulation" title="Reset simulation">
-          <span aria-hidden="true">reset</span>
-        </button>
+      <div class="swarm-controls" role="group" aria-label="Swarm controls and live metrics">
+        <label class="swarm-reach">alignment reach <b id="reach-value">0.045</b>
+          <input id="reach" type="range" min="0.018" max="0.19" step="0.001" value="0.045">
+        </label>
+        <form id="start-form" class="swarm-start">
+          <label for="agent-count">agents</label>
+          <input id="agent-count" type="number" min="10" max="500" step="1" value="144" required aria-label="Agents for the next start">
+          <button type="submit">new start</button>
+        </form>
+        <span>shared heading <b id="alignment">0.00</b></span>
+        <span>rotation <b id="rotation">0.00</b></span>
+      </div>
+      <section class="field" aria-label="Three-zone swarm simulation">
+        <canvas id="swarm-canvas" role="img" aria-label="Moving agents that avoid close neighbours, align with mid-range neighbours, and approach distant neighbours. The alignment reach slider changes the range of the middle rule.">A moving three-zone swarm.</canvas>
       </section>
+      <p class="swarm-rules">agents avoid nearby neighbours; otherwise, they align with mid-range ones and approach distant ones.</p>
+      <p id="swarm-error" role="alert" hidden></p>
     </main>
-    <script src="{{ '/assets/js/swarm.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/three-zone-model.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/three-zone-swarm.js' | relative_url }}"></script>
   </body>
 </html>

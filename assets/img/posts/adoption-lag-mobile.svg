@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 620" role="img" aria-labelledby="title desc">
+  <title id="title">Technological leadership can change faster than market shares</title>
+  <desc id="desc">A vertical timeline shows the frontier passing from A to B to C to D while market shares adjust slowly and remain distributed across earlier leaders.</desc>
+  <defs>
+    <marker id="arrow" markerHeight="7" markerWidth="7" orient="auto" refX="6" refY="3.5">
+      <path d="M0 0L7 3.5L0 7Z" fill="#000"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000; }
+      .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+      .label { font-size: 11px; font-weight: 700; }
+      .white { fill: #fff; }
+    </style>
+  </defs>
+
+  <rect width="430" height="620" fill="#fff"/>
+  <text class="eyebrow" x="24" y="31">FRONTIER</text>
+  <text class="eyebrow" x="126" y="31">ACTUAL MARKET SHARES</text>
+  <text x="126" y="49" font-size="11">adoption adjusts slowly</text>
+
+  <line x1="62" x2="62" y1="76" y2="572" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text class="label" x="62" y="600" text-anchor="middle">TIME</text>
+
+  <g aria-label="At the first time, A leads technology and owns the market">
+    <rect x="26" y="82" width="72" height="42" fill="#000"/>
+    <text class="white" x="62" y="108" font-size="16" font-weight="700" text-anchor="middle">A</text>
+    <rect x="126" y="82" width="276" height="42" fill="#000" stroke="#000"/>
+    <text class="white label" x="264" y="108" text-anchor="middle">A 100</text>
+  </g>
+
+  <g aria-label="At the second time, B leads technology but A keeps most of the market">
+    <rect x="26" y="210" width="72" height="42" fill="#666"/>
+    <text class="white" x="62" y="236" font-size="16" font-weight="700" text-anchor="middle">B</text>
+    <rect x="126" y="210" width="207" height="42" fill="#000" stroke="#000"/>
+    <rect x="333" y="210" width="69" height="42" fill="#666" stroke="#000"/>
+    <text class="white label" x="229" y="236" text-anchor="middle">A 75</text>
+    <text class="white label" x="367" y="236" text-anchor="middle">B 25</text>
+  </g>
+
+  <g aria-label="At the third time, C leads technology while A and B retain most of the market">
+    <rect x="26" y="338" width="72" height="42" fill="#aaa" stroke="#000"/>
+    <text x="62" y="364" font-size="16" font-weight="700" text-anchor="middle">C</text>
+    <rect x="126" y="338" width="138" height="42" fill="#000" stroke="#000"/>
+    <rect x="264" y="338" width="88" height="42" fill="#666" stroke="#000"/>
+    <rect x="352" y="338" width="50" height="42" fill="#aaa" stroke="#000"/>
+    <text class="white label" x="195" y="364" text-anchor="middle">A 50</text>
+    <text class="white label" x="308" y="364" text-anchor="middle">B 32</text>
+    <text class="label" x="377" y="364" text-anchor="middle">C 18</text>
+  </g>
+
+  <g aria-label="At the fourth time, D leads technology while the initial incumbent still has the largest market share">
+    <rect x="26" y="466" width="72" height="42" fill="#e2e2e2" stroke="#000"/>
+    <text x="62" y="492" font-size="16" font-weight="700" text-anchor="middle">D</text>
+    <rect x="126" y="466" width="88" height="42" fill="#000" stroke="#000"/>
+    <rect x="214" y="466" width="77" height="42" fill="#666" stroke="#000"/>
+    <rect x="291" y="466" width="66" height="42" fill="#aaa" stroke="#000"/>
+    <rect x="357" y="466" width="45" height="42" fill="#e2e2e2" stroke="#000"/>
+    <text class="white label" x="170" y="492" text-anchor="middle">A 32</text>
+    <text class="white label" x="252" y="492" text-anchor="middle">B 28</text>
+    <text class="label" x="324" y="492" text-anchor="middle">C 24</text>
+    <text x="379" y="492" font-size="9" font-weight="700" text-anchor="middle">D 16</text>
+  </g>
+
+  <text x="126" y="555" font-size="11" font-weight="700">the frontier moves before the market finishes moving</text>
+</svg>
