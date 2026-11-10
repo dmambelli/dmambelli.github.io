@@ -31,7 +31,8 @@
       <section class="field" aria-label="Chimera simulation">
         <canvas id="field-canvas" role="img" aria-label="A grid of 16,000 oscillators that start from random phases and form rotating spiral waves. The speckled core of each spiral never synchronizes. The phase lag slider changes how late each oscillator follows its neighbours.">Spiral waves forming in a grid of oscillators.</canvas>
       </section>
-      <p class="field-rules">each oscillator turns toward the mean phase of its neighbours within 8 cells, offset by the phase lag. near the default lag, spiral waves form whose speckled cores never synchronize. marks on the lag line are rough regime boundaries; only 1.57, a quarter cycle, is exact.</p>
+      <p class="field-rules">each oscillator turns toward the mean phase of its neighbours within 8 cells, offset by the phase lag. near the default lag, spiral waves form whose speckled cores never synchronize. marks on the lag line are rough regime boundaries; only 1.57, a quarter cycle, is exact.<br>
+        model after S. Shima and Y. Kuramoto, “<a href="https://doi.org/10.1103/PhysRevE.69.036213">Rotating spiral waves with phase-randomized core in nonlocally coupled oscillators</a>,” Physical Review E 69, 036213 (2004).</p>
       <p id="field-error" role="alert" hidden></p>
     </main>
     <script src="{{ '/assets/js/chimera-model.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

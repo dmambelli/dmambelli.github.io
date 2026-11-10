@@ -196,6 +196,12 @@ h1 {
   width: min(100%, 1056px, calc(160vh - 352px));
 }
 
+.field-rules a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 #field-error {
   color: #b83728;
 }
