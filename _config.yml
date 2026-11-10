@@ -3,3 +3,4 @@ favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 exclude:
   - simulations
+  - test

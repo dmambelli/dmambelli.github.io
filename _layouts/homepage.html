@@ -14,25 +14,27 @@
         <h1>{{ site.title | downcase }}</h1>
         <div class="bio">{{ content }}</div>
       </header>
-      <div class="swarm-controls" role="group" aria-label="Swarm controls and live metrics">
-        <label class="swarm-reach">alignment reach <b id="reach-value">0.045</b>
-          <input id="reach" type="range" min="0.018" max="0.19" step="0.001" value="0.045">
-        </label>
-        <form id="start-form" class="swarm-start">
-          <label for="agent-count">agents</label>
-          <input id="agent-count" type="number" min="10" max="500" step="1" value="144" required aria-label="Agents for the next start">
-          <button type="submit">new start</button>
-        </form>
-        <span>shared heading <b id="alignment">0.00</b></span>
-        <span>rotation <b id="rotation">0.00</b></span>
+      <div class="field-controls" role="group" aria-label="Simulation controls and live metrics">
+        <div class="field-readout">
+          <label for="lag">phase lag</label> <b id="lag-value">0.70</b>
+          <span id="lag-regime">stable spiral chimeras</span>
+        </div>
+        <div class="field-readout">
+          <button id="restart" class="field-restart" type="button">new start</button>
+          <span>incoherent <b id="incoherent">0.0%</b></span>
+          <span>time <b id="time">0</b></span>
+        </div>
+        <div id="lag-scale" class="lag-scale">
+          <input id="lag" type="range" min="0.1" max="3.14" step="0.01" value="0.7">
+        </div>
       </div>
-      <section class="field" aria-label="Three-zone swarm simulation">
-        <canvas id="swarm-canvas" role="img" aria-label="Moving agents that avoid close neighbours, align with mid-range neighbours, and approach distant neighbours. The alignment reach slider changes the range of the middle rule.">A moving three-zone swarm.</canvas>
+      <section class="field" aria-label="Chimera simulation">
+        <canvas id="field-canvas" role="img" aria-label="A grid of 16,000 oscillators that start from random phases and form rotating spiral waves. The speckled core of each spiral never synchronizes. The phase lag slider changes how late each oscillator follows its neighbours.">Spiral waves forming in a grid of oscillators.</canvas>
       </section>
-      <p class="swarm-rules">agents avoid nearby neighbours; otherwise, they align with mid-range ones and approach distant ones.</p>
-      <p id="swarm-error" role="alert" hidden></p>
+      <p class="field-rules">each oscillator turns toward the mean phase of its neighbours within 8 cells, offset by the phase lag. near the default lag, spiral waves form whose speckled cores never synchronize. marks on the lag line are rough regime boundaries; only 1.57, a quarter cycle, is exact.</p>
+      <p id="field-error" role="alert" hidden></p>
     </main>
-    <script src="{{ '/assets/js/three-zone-model.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
-    <script src="{{ '/assets/js/three-zone-swarm.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/chimera-model.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/chimera-field.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   </body>
 </html>
