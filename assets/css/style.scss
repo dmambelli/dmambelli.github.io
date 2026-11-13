@@ -163,7 +163,8 @@ h1 {
   height: 13px;
 }
 
-.field-restart {
+.field-restart,
+.field-warning button {
   background: transparent;
   border: 0;
   border-bottom: 1px solid #999;
@@ -177,7 +178,38 @@ h1 {
 .field {
   border: 2px solid var(--black);
   overflow: hidden;
+  position: relative;
   width: min(100%, 1056px, calc(160vh - 352px));
+}
+
+.field-warning {
+  align-items: center;
+  background: var(--white);
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 14px;
+  inset: 0;
+  justify-content: center;
+  line-height: 1.4;
+  padding: 24px;
+  position: absolute;
+  text-align: center;
+}
+
+.field-warning[hidden] {
+  display: none;
+}
+
+.field-warning p {
+  margin: 0;
+  max-width: 420px;
+}
+
+.field-warning b {
+  color: #151515;
+  font-weight: 600;
 }
 
 #field-canvas {

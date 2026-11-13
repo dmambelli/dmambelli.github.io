@@ -91,8 +91,12 @@
     draw();
     console.info(`New chimera start: seed ${seed}`);
   });
+  // The field flickers at high contrast, so nothing moves until the visitor accepts the warning.
+  document.getElementById('field-start').addEventListener('click', () => {
+    document.getElementById('field-warning').hidden = true;
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) requestAnimationFrame(tick);
+  }, { once: true });
   showLag();
   draw();
   console.info(`Chimera field: seed ${seed}, ${field.columns} x ${field.rows} oscillators, ${fps} fps`);
-  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) requestAnimationFrame(tick);
 })();
